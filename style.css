@@ -1,88 +1,84 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding-top: 56px;
 }
 
-    body {
-            padding-top: 56px;
-        }
-    .container {
-            margin-top: 20px;
-    }
-
+/* CSS RESET */
 
 .container {
-    background: rgb(230, 166, 230);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+  margin-top: 20px;
+  background: rgb(230, 166, 230);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 form {
-    display: flex;
+  display: flex;
 }
 
 input[type="text"] {
-    flex: 1;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 .bubble.clr-highlight:hover {
-    background: linear-gradient(135deg,#b1e9d8d1,#cfa8d4c4)
+  background: linear-gradient(135deg, #b1e9d8d1, #cfa8d4c4);
 }
 
 button {
-    padding: 10px 15px;
-    font-size: 16px;
-    background: linear-gradient(135deg,#b1e9d8d1,#cfa8d4c4);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    margin-left: 10px;
-    cursor: pointer;
+  padding: 10px 15px;
+  font-size: 16px;
+  background: linear-gradient(135deg, #b1e9d8d1, #cfa8d4c4);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 button:hover {
-    background: linear-gradient(135deg,#b1e9d8d1,#cfa8d4c4);
+  background: linear-gradient(135deg, #b1e9d8d1, #cfa8d4c4);
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
 }
 
 li {
-    background: #f8f8f8;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background: #f8f8f8;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 li button {
-    background-color: #dc3545;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
 }
 
 li button:hover {
-    background-color: #c82333;
+  background-color: #c82333;
 }
